@@ -107,7 +107,7 @@ for index in range(len(pearson_vectorX)):
 # Pearson 
 write_file.write('Pearson Correlation: ' + str(pearsonr(pearson_vectorX,pearson_vectorY)[0]))
 
-# Close files
+# Close files 
 simi_file.close()
 write_file.close()
 
