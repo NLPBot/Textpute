@@ -1,8 +1,6 @@
 #! /usr/bin/env python
 
 #
-# Ling 571: HW 5  
-# Instructor: Gina-Anne Levow
 # Author: Chang, Chuan Yi
 #
 

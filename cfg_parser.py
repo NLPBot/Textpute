@@ -1,9 +1,7 @@
 #! /usr/bin/env python
 
 #
-# Ling 571: HW 4
 # Instructor: Gina-Anne Levow
-# Author: Chang, Chuan Yi
 #
 
 import nltk
@@ -14,7 +12,7 @@ import sys
 writeFileName = sys.argv[1]
 
 # load pcfg file
-pcfg = nltk.data.load('hw4_trained.pcfg')
+pcfg = nltk.data.load('trained.pcfg')
 prison_num = 1
 			
 # Run algorithm
@@ -89,7 +87,7 @@ def ConvertBack():
 # Get word list, Open file to write
 write_file = open(writeFileName,'w')
 lines = []
-file = open('/dropbox/14-15/571/hw4/data/sents.test',"r")
+file = open('ents.test',"r")
 
 # All lines
 for line in file:	

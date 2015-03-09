@@ -1,8 +1,6 @@
 #! /usr/bin/env python
 
 #
-# Ling 571: HW 4
-# Instructor: Gina-Anne Levow
 # Author: Chang, Chuan Yi
 #
 
@@ -87,7 +85,7 @@ def RuleExpander():
 	NTCounts['JJ'] += 1
 
 # All lines
-file = open('/dropbox/14-15/571/hw4/data/parses.train',"r")
+file = open('parses.train',"r")
 for line in file:
 	traverse(ParentedTree.fromstring(line))
 	words = line.split()
@@ -106,7 +104,7 @@ if expand:
 	RuleExpander()
 
 # Probability
-write_file = open('hw4_trained.pcfg','w')
+write_file = open('trained.pcfg','w')
 for key in graph:
 	for production in graph[key]:
 		#if len(production)<3:
