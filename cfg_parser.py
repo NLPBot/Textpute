@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 #
-# Instructor: Gina-Anne Levow
+# Author: Chang, Chuan Yi
 #
 
 import nltk
